@@ -47,7 +47,7 @@ def convert_png_to_jpg(input_path: str, quality: int = 95):
                 print(f" Converted: {jpg_file}")
 
         except Exception as e:
-            print(f"❌ Failed: {png_file} -> {e}")
+            print(f" Failed: {png_file} -> {e}")
 
 
 if __name__ == "__main__":
