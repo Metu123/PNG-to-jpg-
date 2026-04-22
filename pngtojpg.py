@@ -7,7 +7,7 @@ def convert_png_to_jpg(input_path: str, quality: int = 95):
     path = Path(input_path).expanduser().resolve()
 
     if not path.exists():
-        print("this is not.")
+        print("this is not a path.")
         return
 
     files = []
