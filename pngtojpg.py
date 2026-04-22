@@ -17,7 +17,7 @@ def convert_png_to_jpg(input_path: str, quality: int = 95):
     elif path.is_dir():
         files.extend(path.rglob("*.png"))
     else:
-        print("❌ Provide a PNG file or a directory containing PNG files.")
+        print("put a png file or a directory.")
         return
 
     if not files:
