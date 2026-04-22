@@ -21,7 +21,7 @@ def convert_png_to_jpg(input_path: str, quality: int = 95):
         return
 
     if not files:
-        print("⚠️ No PNG files found.")
+        print(" No PNG found.")
         return
 
     for png_file in files:
