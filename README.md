@@ -1,17 +1,3 @@
-PNG to JPG Converter (Python Script)
-
-Overview
-
-This script is a simple command-line utility that converts PNG images to JPG format using the Python Imaging Library (Pillow). It supports both single-file conversion and batch conversion of all PNG files inside a directory (including subdirectories).
-
-It also handles PNG transparency by automatically adding a white background before converting to JPEG, since JPEG does not support transparency.
-
-
----
-
-Features
-
-Convert a single PNG file to JPG
 
 Convert all PNG files inside a folder recursively
 
